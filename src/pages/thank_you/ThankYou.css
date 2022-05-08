@@ -1,0 +1,20 @@
+#answerRow {
+    display: flex;
+    justify-content: center;
+}
+
+#answerBox {
+    background-color: var(--dark_blue);
+    border-radius: 36px;
+    margin: var(--base_unit) 0px calc(var(--base_unit)*0.5) 0px;
+}
+
+#answerBox > p {
+    padding: 8px 16px;
+    margin: 0;
+    color: var(--orange);
+}
+
+#container {
+    text-align: center;
+}

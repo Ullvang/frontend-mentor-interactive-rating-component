@@ -1,0 +1,48 @@
+.ratingButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: calc(var(--base_unit) * 1.5);
+}
+
+.submitButton {
+    width: 100%;
+    color: var(--white);
+    background-color: var(--orange);
+    padding: var(--base_unit);
+    border-radius: 26px;
+    letter-spacing: 2px;
+    border: none;
+    padding: var(--base_unit);
+}
+
+.submitButton:active {
+    color: var(--orange);
+    background-color: var(--white);
+}
+
+.valueButton {
+    width: 40px;
+    height: 40px;
+    background-color: var(--dark_blue);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 50%;
+    color: var(--light_grey);
+    border: none;
+}
+
+.valueButton:active {
+    background-color: var(--orange) !important;
+    color: white !important;
+}
+
+#iconStarContainer {
+    background-color: var(--dark_blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

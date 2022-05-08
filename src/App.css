@@ -1,0 +1,73 @@
+:root {
+  /* Primary */
+  --orange: hsl(25, 97%, 53%);
+  
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --light_grey: hsl(217, 12%, 63%);
+  --medium_grey: hsl(216, 12%, 54%);
+  --dark_blue: hsl(213, 19%, 18%);
+  --card_color_bottom: 		hsl(210, 29%, 12%);
+  --very_dark_blue: hsl(216, 12%, 8%);
+
+  --base_unit: 16px;
+  --font_size: 15px;
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--very_dark_blue);
+  position: relative;
+}
+
+* {
+  font-family: 'Overpass', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  margin: calc(6*var(--base_unit)) var(--base_unit);
+  background: radial-gradient(circle at center top, var(--dark_blue), var(--card_color_bottom));
+  padding: calc(var(--base_unit) * 2) var(--base_unit);
+  border-radius: var(--base_unit);
+  max-width: 311.2px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  color: var(--white);
+  font-size: calc(var(--font_size) * 1.65);
+}
+
+p {
+  color: var(--light_grey);
+  font-size: var(--font_size);
+  line-height: 22px;
+}
+
+button {
+  font-size: var(--font_size);
+  font-weight: 700;
+}
+
+a {
+  color: white;
+}
+
+
+/* input[type="radio"] {
+  width: 40px;
+  height: 40px;
+} */
