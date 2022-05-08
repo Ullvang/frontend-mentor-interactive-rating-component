@@ -7,12 +7,10 @@ The site was developed as mobile first.
 
 # Frontend Mentor - Interactive rating component
 
-I tried to recreate this image as a website and app:
+I tried to recreate this image as a website:
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 See more about this challange at [https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
-
-Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
